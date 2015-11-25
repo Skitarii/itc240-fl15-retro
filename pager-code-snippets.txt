@@ -1,6 +1,6 @@
 /*
 Pager code snippets
-Updated 11/23/2015
+Updated 11/24/2015
 
 Please copy the contents below into 
 your files as listed below.
@@ -17,12 +17,15 @@ define('DEBUG',TRUE); #we want to see all errors
 
 date_default_timezone_set('America/Los_Angeles'); #sets default date/timezone for this website
 
+include 'credentials.php'; //stores database login info
 include 'common.php'; //stores all unsightly application functions, etc.
 include 'MyAutoLoader.php'; //loads class that autoloads all classes in include folder
 
-/* automatic path settings - use the following path settings for placing all code in one application folder */ 
+/* use the following path settings for placing all code in one application folder */ 
 define('VIRTUAL_PATH', 'http://example.com/retro/'); # Virtual (web) 'root' of application for images, JS & CSS files
-define('PHYSICAL_PATH', '/home/horsey01/retro/'); # Physical (PHP) 'root' of application for file & upload reference
+
+define('PHYSICAL_PATH', '/home/horsey01/example.com/retro/'); # Physical (PHP) 'root' of application for file & upload reference
+
 define('INCLUDE_PATH', PHYSICAL_PATH . 'includes/'); # Path to PHP include files - INSIDE APPLICATION ROOT
 
 ob_start();  #buffers our page to be prevent header errors. Call before INC files or ANY html!
