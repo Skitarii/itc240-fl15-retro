@@ -1,4 +1,4 @@
-<!-- header.php -->
+
 <!DOCTYPE html>
 <!-- Website template by freewebsitetemplates.com -->
 <head>

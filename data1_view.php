@@ -1,5 +1,5 @@
-<!-- HEADER STARTS HERE -->
 <?php include 'includes/config.php';?>
+<?php include 'includes/header.php';?>
 <?php
 //data1_view.php - shows details of a single customer
 

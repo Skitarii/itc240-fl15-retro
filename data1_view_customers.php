@@ -1,4 +1,3 @@
-<!-- HEADER STARTS HERE -->
 <?php include 'includes/config.php';?>
 <?php
 //data1_view.php - shows details of a single customer

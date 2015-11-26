@@ -1,7 +1,6 @@
-<!-- HEADER STARTS HERE -->
 <?php include 'includes/config.php';?>
 <?php include 'includes/header.php';?>
-<!-- HEADER ENDS HERE -->
+
 <h1><?=$pageID?></h1>
 <?php
 //data1_list.php - shows a list of customer data

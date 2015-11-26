@@ -1,4 +1,4 @@
-<!-- footer.php -->
+
 </div>
 			</div>
 		</div>

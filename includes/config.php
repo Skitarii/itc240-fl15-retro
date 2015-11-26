@@ -12,7 +12,7 @@ include 'MyAutoLoader.php'; //loads class that autoloads all classes in include 
 /* use the following path settings for placing all code in one application folder */ 
 define('VIRTUAL_PATH', 'http://scottgreene.dreamhosters.com/retro/'); # Virtual (web) 'root' of application for images, JS & CSS files
 
-define('PHYSICAL_PATH', '/scottgreene.dreamhosters.com/retro/'); # Physical (PHP) 'root' of application for file & upload reference
+define('PHYSICAL_PATH', '/home/scogre14/scottgreene.dreamhosters.com/retro/'); # Physical (PHP) 'root' of application for file & upload reference
 
 define('INCLUDE_PATH', PHYSICAL_PATH . 'includes/'); # Path to PHP include files - INSIDE APPLICATION ROOT
 
